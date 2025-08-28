@@ -1,12 +1,23 @@
-# PyTorch Neural Network Implementation of "Label Embedding via Low-Coherence Matrices"
+# PyTorch Implementation of "Label Embedding via Low-Coherence Matrices"
+
+Please cite
+```
+@article{
+anonymous2025label,
+title={Label Embedding via Low-Coherence Matrices},
+author={Anonymous},
+journal={Submitted to Transactions on Machine Learning Research},
+year={2025},
+url={https://openreview.net/forum?id=vrcWXcr4On},
+note={Under review}
+}
+```
 
 ## Environment Setup
 
 The environment setup is stored in the `env.yml` file. 
 
 ## Code Structure
-
-Our codebase includes various Python scripts, with each file serving a different purpose. Here's a brief rundown:
 
 - `nn_utils.py`: This file contains utility functions used in our neural network models.
 - `run_nn_[dataset].py`: These scripts implement the embedding methods for different datasets. Replace `[dataset]` with the name of the dataset you are working with (e.g., `lshtc1`, `dmoz`, `odp`).
@@ -25,7 +36,7 @@ Replace `[dataset]` with the name of the dataset you are working with, and `<emb
 python run_nn_lshtc1.py 64 rademacher 5 86774275
 ```
 
-```
+
 
 ## Data
 
